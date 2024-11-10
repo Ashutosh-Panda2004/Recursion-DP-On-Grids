@@ -5,7 +5,7 @@ void solve(vector<vector<int>>& vec, int rows, int cols, pair<int, int> currpoin
     if (currpoint.first == rows - 1 && currpoint.second == cols - 1) {
         currpath.push_back(currpoint);
         ans.push_back(currpath);
-        currpath.pop_back();
+        currpath.pop_back();   // Remember this !!!
         return;
     }
 
