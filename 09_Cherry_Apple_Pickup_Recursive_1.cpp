@@ -66,7 +66,7 @@ int main()
     
     int r1=0, c1=0, r2=0, c2=0;
     
-    if(vec[0][0]==-1 || vec[rows-1][cols-1]==0){
+    if(vec[0][0]==-1 || vec[rows-1][cols-1]==-1){
         cout << "Cherries picked up: " << 0;
         return 0;
     }
